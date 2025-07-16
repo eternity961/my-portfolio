@@ -152,21 +152,7 @@ const Projects = () => {
                 </div>
 
                 {/* Project Links */}
-                <div className="flex space-x-4">
-                  <a
-                    href={project.github}
-                    className="flex items-center px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors duration-300"
-                  >
-                    <Github className="w-4 h-4 mr-2" />
-                    Code
-                  </a>
-                  <a
-                    href={project.demo}
-                    className="flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Demo
-                  </a>
+                <div className="flex space-x-4"> 
                 </div>
               </div>
             </div>
